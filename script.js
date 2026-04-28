@@ -1,7 +1,5 @@
-const toggle = document.getElementById("themeToggle")
-
-toggle.addEventListener("click", () => {
-
-document.body.classList.toggle("light")
-
-})
+function scrollToSection(id) {
+    document.getElementById(id).scrollIntoView({
+      behavior: "smooth"
+    });
+  }
