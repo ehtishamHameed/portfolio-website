@@ -7,51 +7,51 @@ body {
     font-family: Arial;
     
     margin: 0;
-    
-    }
-    
-    header {
+  
+  }
+  
+  header {
     
     display: flex;
     
     justify-content: space-between;
-    
+  
     padding: 20px;
     
     background: rgba(255,255,255,0.05);
     
     backdrop-filter: blur(10px);
     
-    }
-    
-    nav a {
+  }
+  
+  nav a {
     
     color: white;
-    
+  
     margin: 10px;
     
     text-decoration: none;
     
-    }
-    
-    .hero {
+  }
+  
+  .hero {
     
     display: flex;
     
     align-items: center;
-    
+  
     justify-content: space-between;
-    
+  
     padding: 80px;
-    
-    }
-    
+  
+  }
+  
     .hero-left h1 {
-    
+  
     font-size: 50px;
-    
-    }
-    
+  
+  }
+  
     .stats {
     
     display: flex;
@@ -60,18 +60,18 @@ body {
     
     margin-top: 20px;
     
-    }
-    
+  }
+  
     .stats div {
     
     background: rgba(255,255,255,0.05);
-    
+  
     padding: 20px;
-    
+  
     border-radius: 10px;
-    
-    }
-    
+  
+  }
+  
     .btn {
     
     background: #00d4ff;
@@ -88,4 +88,4 @@ body {
     
     cursor: pointer;
     
-    }
+  }
