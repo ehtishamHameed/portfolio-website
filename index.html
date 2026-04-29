@@ -2,78 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ehtisham Portfolio</title>
   <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<!-- NAVBAR -->
-<header>
-  <h2 class="logo">Devcipator</h2>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
+<!-- HEADER -->
+<header class="header">
+
+  <div class="logo">
+    Ehtisham
+  </div>
+
+  <nav class="nav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
   </nav>
+
 </header>
 
-<!-- HERO -->
-<section id="home" class="hero">
-  <h1>Hi, I'm <span>Ehtisham</span></h1>
-  <p>Bubble Developer | Web Developer | UI/UX Designer</p>
-  <button onclick="scrollToSection('projects')">View Work</button>
-</section>
 
-<!-- ABOUT -->
-<section id="about" class="section">
-  <h2>About Me</h2>
-  <p>
-    I am a Bubble.io developer and web developer building modern apps like marketplaces,
-    job platforms and SaaS systems with clean UI/UX.
-  </p>
-</section>
 
-<!-- PROJECTS -->
-<section id="projects" class="section dark">
-  <h2>Projects</h2>
+<!-- HERO SECTION -->
+<section class="hero">
 
-  <div class="card-grid">
+  <!-- LEFT SIDE -->
+  <div class="hero-left">
 
-    <div class="card">
-      <h3>Parkory App</h3>
-      <p>Smart parking system with chatbot integration.</p>
-    </div>
+    <h1>
+      Hi, I'm  
+      <span>Ehtisham</span>
+    </h1>
 
-    <div class="card">
-      <h3>SurplusConnect</h3>
-      <p>Bidding system for surplus equipment marketplace.</p>
-    </div>
+    <h2>
+      Bubble Developer
+    </h2>
 
-    <div class="card">
-      <h3>Music Job Platform</h3>
-      <p>Connect musicians with employers globally.</p>
-    </div>
+    <p>
+      I build powerful web applications using Bubble.io.
+      I specialize in creating scalable platforms,
+      dashboards, and SaaS products for clients worldwide.
+    </p>
 
-    <div class="card">
-      <h3>Bubble SaaS Apps</h3>
-      <p>Custom SaaS built using Bubble.io no-code platform.</p>
+    <button class="btn">
+      Hire Me
+    </button>
+
+  </div>
+
+
+
+  <!-- RIGHT SIDE -->
+  <div class="hero-right">
+
+    <div class="image-circle">
+
+      <img src="profile.jpg" alt="Profile">
+
     </div>
 
   </div>
+
 </section>
 
-<!-- CONTACT -->
-<section id="contact" class="section">
-  <h2>Contact</h2>
-  <p>Email: ehtisham@example.com</p>
-</section>
-
-<footer>
-  © 2026 Devcipator. All rights reserved.
-</footer>
-
-<script src="script.js"></script>
 </body>
 </html>
