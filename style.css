@@ -324,7 +324,7 @@
   
   
   
-  /* ========================= */
+/* ========================= */
 /* SKILLS SECTION */
 /* ========================= */
 
@@ -368,7 +368,7 @@
   
     justify-content: space-between;
   
-    gap: 50px;
+    gap: 60px;
   
   }
   
@@ -398,17 +398,29 @@
   
   
   
+  /* CARDS GRID */
+  
+  .skills-cards {
+  
+    display: grid;
+  
+    grid-template-columns: 1fr;
+  
+    gap: 25px;
+  
+  }
+  
+  
+  
   /* SKILL CARD */
   
-  .skill-box {
+  .skill-card {
   
     background: #1e293b;
   
     padding: 25px;
   
-    border-radius: 15px;
-  
-    margin-bottom: 25px;
+    border-radius: 16px;
   
     transition: all 0.4s ease;
   
@@ -422,7 +434,7 @@
   
   /* HOVER EFFECT */
   
-  .skill-box:hover {
+  .skill-card:hover {
   
     transform: translateY(-10px);
   
@@ -432,7 +444,7 @@
   
     box-shadow:
   
-      0 15px 35px rgba(0,0,0,0.6);
+      0 18px 35px rgba(0,0,0,0.6);
   
   }
   
@@ -440,7 +452,7 @@
   
   /* TEXT */
   
-  .skill-box h4 {
+  .skill-card h4 {
   
     font-size: 18px;
   
@@ -448,7 +460,7 @@
   
   }
   
-  .skill-box p {
+  .skill-card p {
   
     color: #cbd5e1;
   
