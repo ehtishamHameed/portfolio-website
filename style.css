@@ -325,11 +325,11 @@
   
   
   /* ========================= */
-  /* SKILLS SECTION */
-  /* ========================= */
-  
-  .skills {
-  
+/* SKILLS SECTION */
+/* ========================= */
+
+.skills {
+
     padding: 100px 0;
   
   }
@@ -340,7 +340,7 @@
   
     text-align: center;
   
-    margin-bottom: 60px;
+    margin-bottom: 70px;
   
   }
   
@@ -360,15 +360,39 @@
   
   
   
-  /* GRID */
+  /* WRAPPER */
   
-  .skills-grid {
+  .skills-wrapper {
   
-    display: grid;
+    display: flex;
   
-    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
   
-    gap: 30px;
+    gap: 50px;
+  
+  }
+  
+  
+  
+  /* COLUMN */
+  
+  .skills-column {
+  
+    flex: 1;
+  
+  }
+  
+  
+  
+  /* TITLE */
+  
+  .skills-title {
+  
+    font-size: 28px;
+  
+    margin-bottom: 30px;
+  
+    color: #00f5ff;
   
   }
   
@@ -376,7 +400,7 @@
   
   /* SKILL CARD */
   
-  .skill-card {
+  .skill-box {
   
     background: #1e293b;
   
@@ -384,89 +408,50 @@
   
     border-radius: 15px;
   
-    transition: 0.3s;
+    margin-bottom: 25px;
+  
+    transition: all 0.4s ease;
+  
+    border: 2px solid transparent;
+  
+    cursor: pointer;
   
   }
   
   
   
-  .skill-card:hover {
+  /* HOVER EFFECT */
+  
+  .skill-box:hover {
   
     transform: translateY(-10px);
   
-    box-shadow:
-      0 15px 30px rgba(0,0,0,0.5);
-  
-  }
-  
-  
-  
-  /* PROGRESS BAR */
-  
-  .progress-bar {
-  
-    width: 100%;
-  
-    height: 12px;
-  
     background: #0f172a;
   
-    border-radius: 10px;
+    border: 2px solid #00f5ff;
   
-    margin-top: 15px;
+    box-shadow:
   
-    overflow: hidden;
-  
-  }
-  
-  
-  
-  .progress {
-  
-    height: 100%;
-  
-    line-height: 12px;
-  
-    font-size: 12px;
-  
-    text-align: right;
-  
-    padding-right: 10px;
-  
-    border-radius: 10px;
-  
-    background: linear-gradient(
-      45deg,
-      #00f5ff,
-      #a855f7
-    );
+      0 15px 35px rgba(0,0,0,0.6);
   
   }
   
   
   
-  /* WIDTHS */
+  /* TEXT */
   
-  .bubble {
+  .skill-box h4 {
   
-    width: 95%;
+    font-size: 18px;
   
-  }
-  
-  .figma {
-  
-    width: 90%;
+    margin-bottom: 10px;
   
   }
   
-  .web {
+  .skill-box p {
   
-    width: 85%;
+    color: #cbd5e1;
   
-  }
-  
-  .uiux {
-  
-    width: 88%;
+    line-height: 1.6;
   
   }
