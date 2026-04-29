@@ -227,22 +227,25 @@
   
   }
   
-  
-  
-  /* ABOUT */
-  
-  .about {
-  
-    padding: 100px 0;
+/* ========================= */
+/* ABOUT SECTION */
+/* ========================= */
+
+.about {
+
+    padding: 100px 80px;
   
   }
+  
+  
+  
+  /* CONTAINER */
   
   .about-container {
   
     display: flex;
   
     justify-content: space-between;
-  
     align-items: center;
   
     gap: 60px;
@@ -251,7 +254,7 @@
   
   
   
-  /* CARDS */
+  /* LEFT CARDS */
   
   .about-cards {
   
@@ -264,6 +267,8 @@
   }
   
   
+  
+  /* CARD BASE */
   
   .card {
   
@@ -283,13 +288,56 @@
   
     transition: all 0.4s ease;
   
+    border: 2px solid transparent;
+  
   }
   
   
   
+  /* GRADIENT BORDER EFFECT */
+  
+  .card::before {
+  
+    content: "";
+  
+    position: absolute;
+  
+    inset: 0;
+  
+    border-radius: 16px;
+  
+    padding: 2px;
+  
+    background: linear-gradient(
+      45deg,
+      #00f5ff,
+      #a855f7,
+      #00f5ff
+    );
+  
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+  
+    -webkit-mask-composite: xor;
+  
+    mask-composite: exclude;
+  
+    opacity: 0;
+  
+    transition: 0.4s;
+  
+  }
+  
+  
+  
+  /* CARD HOVER */
+  
   .card:hover {
   
-    transform: translateY(-12px);
+    transform: translateY(-12px) scale(1.03);
+  
+    background: #0f172a;
   
     box-shadow:
       0 20px 40px rgba(0,0,0,0.6);
@@ -298,13 +346,53 @@
   
   
   
-  /* DETAILS */
+  /* SHOW BORDER */
+  
+  .card:hover::before {
+  
+    opacity: 1;
+  
+  }
+  
+  
+  
+  /* TEXT COLOR CHANGE */
+  
+  .card h3 {
+  
+    margin-bottom: 10px;
+  
+    color: #00f5ff;
+  
+    transition: 0.3s;
+  
+  }
+  
+  .card p {
+  
+    transition: 0.3s;
+  
+  }
+  
+  
+  
+  .card:hover h3 {
+  
+    color: #a855f7;
+  
+  }
+  
+  
+  
+  /* RIGHT SIDE DETAILS */
   
   .about-details {
   
     max-width: 550px;
   
   }
+  
+  
   
   .about-details h2 {
   
@@ -313,6 +401,8 @@
     margin-bottom: 20px;
   
   }
+  
+  
   
   .about-details p {
   
