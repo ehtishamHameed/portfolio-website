@@ -12,8 +12,6 @@
   
   }
   
-  
-  
   /* HEADER */
   
   .header {
@@ -22,7 +20,7 @@
     justify-content: space-between;
     align-items: center;
   
-    padding: 20px 80px;
+    padding: 20px 20px;
   
   }
   
@@ -32,8 +30,6 @@
     font-weight: 700;
   
   }
-  
-  
   
   /* NAVIGATION */
   
@@ -47,8 +43,6 @@
     font-weight: 500;
   
   }
-  
-  
   
   /* NAV HOVER LINE */
   
@@ -81,8 +75,6 @@
   
   }
   
-  
-  
   /* HERO SECTION */
   
   .hero {
@@ -95,8 +87,6 @@
     padding: 100px 80px;
   
   }
-  
-  
   
   /* LEFT SIDE */
   
@@ -136,8 +126,6 @@
   
   }
   
-  
-  
   /* BUTTON */
   
   .btn {
@@ -170,8 +158,6 @@
   
   }
   
-  
-  
   /* RIGHT SIDE */
   
   .hero-right {
@@ -181,8 +167,6 @@
     align-items: center;
   
   }
-  
-  
   
   /* CIRCLE IMAGE */
   
@@ -219,19 +203,13 @@
   
   }
   
-  
-  
-  /* ========================= */
   /* ABOUT SECTION */
-  /* ========================= */
   
   .about {
   
     padding: 100px 80px;
   
   }
-  
-  
   
   /* CONTAINER */
   
@@ -246,8 +224,6 @@
   
   }
   
-  
-  
   /* LEFT CARDS */
   
   .about-cards {
@@ -260,8 +236,6 @@
   
   }
   
-  
-  
   /* CARD BASE */
   
   .card {
@@ -272,7 +246,7 @@
   
     border-radius: 16px;
   
-    width: 500px;
+    width: 300px;
   
     position: relative;
   
@@ -285,8 +259,6 @@
     border: 2px solid transparent;
   
   }
-  
-  
   
   /* GRADIENT BORDER EFFECT */
   
@@ -323,8 +295,6 @@
   
   }
   
-  
-  
   /* CARD HOVER */
   
   .card:hover {
@@ -338,8 +308,6 @@
   
   }
   
-  
-  
   /* SHOW BORDER */
   
   .card:hover::before {
@@ -347,8 +315,6 @@
     opacity: 1;
   
   }
-  
-  
   
   /* TEXT COLOR CHANGE */
   
@@ -368,15 +334,11 @@
   
   }
   
-  
-  
   .card:hover h3 {
   
     color: #a855f7;
   
   }
-  
-  
   
   /* RIGHT SIDE DETAILS */
   
@@ -386,8 +348,6 @@
   
   }
   
-  
-  
   .about-details h2 {
   
     font-size: 40px;
@@ -395,8 +355,6 @@
     margin-bottom: 20px;
   
   }
-  
-  
   
   .about-details p {
   
