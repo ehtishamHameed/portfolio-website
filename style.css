@@ -14,17 +14,37 @@
   
   
   
+  /* GLOBAL CONTAINER */
+  
+  .container {
+  
+    max-width: 1600px;
+  
+    margin: 0 auto;
+  
+    padding: 0 80px;
+  
+  }
+  
+  
+  
   /* HEADER */
   
   .header {
+  
+    padding: 20px 0;
+  
+  }
+  
+  .header-inner {
   
     display: flex;
     justify-content: space-between;
     align-items: center;
   
-    padding: 20px 80px;
-  
   }
+  
+  
   
   .logo {
   
@@ -40,10 +60,13 @@
   .nav a {
   
     position: relative;
+  
     margin-left: 35px;
   
     text-decoration: none;
+  
     color: white;
+  
     font-weight: 500;
   
   }
@@ -59,9 +82,11 @@
     position: absolute;
   
     bottom: -6px;
+  
     right: 0;
   
     width: 0;
+  
     height: 3px;
   
     background: linear-gradient(
@@ -77,22 +102,28 @@
   .nav a:hover::after {
   
     width: 100%;
+  
     left: 0;
   
   }
   
   
   
-  /* HERO SECTION */
+  /* HERO */
   
   .hero {
+  
+    padding: 100px 0;
+  
+  }
+  
+  .hero-inner {
   
     display: flex;
   
     justify-content: space-between;
-    align-items: center;
   
-    padding: 100px 80px;
+    align-items: center;
   
   }
   
@@ -109,6 +140,7 @@
   .hero-left h1 {
   
     font-size: 52px;
+  
     margin-bottom: 10px;
   
   }
@@ -122,6 +154,7 @@
   .hero-left h2 {
   
     font-size: 32px;
+  
     margin-bottom: 20px;
   
     color: #a855f7;
@@ -131,7 +164,9 @@
   .hero-left p {
   
     font-size: 16px;
+  
     line-height: 1.6;
+  
     margin-bottom: 30px;
   
   }
@@ -172,23 +207,12 @@
   
   
   
-  /* RIGHT SIDE */
-  
-  .hero-right {
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-  }
-  
-  
-  
-  /* CIRCLE IMAGE */
+  /* IMAGE */
   
   .image-circle {
   
     width: 320px;
+  
     height: 320px;
   
     border-radius: 50%;
@@ -197,10 +221,9 @@
   
     border: 6px solid transparent;
   
-    background: linear-gradient(
-        #0f172a,
-        #0f172a
-      ) padding-box,
+    background:
+  
+      linear-gradient(#0f172a, #0f172a) padding-box,
   
       linear-gradient(
         45deg,
@@ -213,6 +236,7 @@
   .image-circle img {
   
     width: 100%;
+  
     height: 100%;
   
     object-fit: cover;
@@ -221,25 +245,20 @@
   
   
   
-  /* ========================= */
-  /* ABOUT SECTION */
-  /* ========================= */
+  /* ABOUT */
   
   .about {
   
-    padding: 100px 80px;
+    padding: 100px 0;
   
   }
-  
-  
-  
-  /* CONTAINER */
   
   .about-container {
   
     display: flex;
   
     justify-content: space-between;
+  
     align-items: center;
   
     gap: 60px;
@@ -248,7 +267,7 @@
   
   
   
-  /* LEFT CARDS */
+  /* CARDS */
   
   .about-cards {
   
@@ -262,7 +281,7 @@
   
   
   
-  /* CARD BASE */
+  /* CARD */
   
   .card {
   
@@ -272,7 +291,7 @@
   
     border-radius: 16px;
   
-    width: 500px;
+    width: 300px;
   
     position: relative;
   
@@ -287,8 +306,6 @@
   }
   
   
-  
-  /* GRADIENT BORDER EFFECT */
   
   .card::before {
   
@@ -325,8 +342,6 @@
   
   
   
-  /* CARD HOVER */
-  
   .card:hover {
   
     transform: translateY(-12px) scale(1.03);
@@ -334,13 +349,12 @@
     background: #0f172a;
   
     box-shadow:
+  
       0 20px 40px rgba(0,0,0,0.6);
   
   }
   
   
-  
-  /* SHOW BORDER */
   
   .card:hover::before {
   
@@ -350,19 +364,11 @@
   
   
   
-  /* TEXT COLOR CHANGE */
-  
   .card h3 {
   
     margin-bottom: 10px;
   
     color: #00f5ff;
-  
-    transition: 0.3s;
-  
-  }
-  
-  .card p {
   
     transition: 0.3s;
   
@@ -378,15 +384,13 @@
   
   
   
-  /* RIGHT SIDE DETAILS */
+  /* DETAILS */
   
   .about-details {
   
     max-width: 550px;
   
   }
-  
-  
   
   .about-details h2 {
   
@@ -395,8 +399,6 @@
     margin-bottom: 20px;
   
   }
-  
-  
   
   .about-details p {
   
