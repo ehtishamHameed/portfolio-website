@@ -35,17 +35,6 @@
     padding: 20px 20px;
   
   }  
-  
-  .header-container {
-  
-    display: flex;
-  
-    justify-content: space-between;
-    align-items: center;
-  
-    gap: 60px;
-  
-  }
 
   .logo {
   
@@ -110,18 +99,6 @@
     padding: 100px 80px;
   
   }
-
-  .hero-container {
-  
-    display: flex;
-  
-    justify-content: space-between;
-    align-items: center;
-  
-    gap: 60px;
-  
-  }
-
 
   /* LEFT SIDE */
   
